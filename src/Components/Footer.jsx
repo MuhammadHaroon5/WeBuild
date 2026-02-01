@@ -26,16 +26,56 @@ function Footer() {
         />
       </div>
       <div className="flex items-center justify-center">
-        <a href="#Home" className="px-1 py-1 mx-1 text-xs text-white duration-150 bg-black sm:text-base sm:text-lg md:text-xl xl:text-2xl xl:px-3 xl:tracking-wider hover:bg-black/70 xl:py-2 xl:hover:tracking-widest">Home</a>
-        <a href="#About" className="px-1 py-1 mx-1 text-xs text-white duration-150 bg-black sm:text-base sm:text-lg md:text-xl xl:text-2xl xl:px-3 xl:tracking-wider hover:bg-black/70 xl:py-2 xl:hover:tracking-widest">About</a>
-        <a href="#Services" className="px-1 py-1 mx-1 text-xs text-white duration-150 bg-black sm:text-base sm:text-lg md:text-xl xl:text-2xl xl:px-3 xl:tracking-wider hover:bg-black/70 xl:py-2 xl:hover:tracking-widest">Services</a>
-        <a href="#" className="px-1 py-1 mx-1 text-xs text-white duration-150 bg-black sm:text-base sm:text-lg md:text-xl xl:text-2xl xl:px-3 xl:tracking-wider hover:bg-black/70 xl:py-2 xl:hover:tracking-widest">Projects</a>
-        <a href="#" className="px-1 py-1 mx-1 text-xs text-white duration-150 bg-black sm:text-base sm:text-lg md:text-xl xl:text-2xl xl:px-3 xl:tracking-wider hover:bg-black/70 xl:py-2 xl:hover:tracking-widest">Pricing</a>
-        <a href="#" className="px-1 py-1 mx-1 text-xs text-white duration-150 bg-black sm:text-base sm:text-lg md:text-xl xl:text-2xl xl:px-3 xl:tracking-wider hover:bg-black/70 xl:py-2 xl:hover:tracking-widest">Contact</a>
+        <a
+          href="#Home"
+          className="px-1 py-1 mx-1 text-xs text-white duration-150 bg-black sm:text-lg md:text-xl xl:text-2xl xl:px-3 xl:tracking-wider hover:bg-black/70 xl:py-2 xl:hover:tracking-widest"
+        >
+          Home
+        </a>
+        <a
+          href="#About"
+          className="px-1 py-1 mx-1 text-xs text-white duration-150 bg-black sm:text-lg md:text-xl xl:text-2xl xl:px-3 xl:tracking-wider hover:bg-black/70 xl:py-2 xl:hover:tracking-widest"
+        >
+          About
+        </a>
+        <a
+          href="#Services"
+          className="px-1 py-1 mx-1 text-xs text-white duration-150 bg-black sm:text-lg md:text-xl xl:text-2xl xl:px-3 xl:tracking-wider hover:bg-black/70 xl:py-2 xl:hover:tracking-widest"
+        >
+          Services
+        </a>
+        <a
+          href="#Projects"
+          className="px-1 py-1 mx-1 text-xs text-white duration-150 bg-black sm:text-lg md:text-xl xl:text-2xl xl:px-3 xl:tracking-wider hover:bg-black/70 xl:py-2 xl:hover:tracking-widest"
+        >
+          Projects
+        </a>
+        <a
+          href="#Pricing"
+          className="px-1 py-1 mx-1 text-xs text-white duration-150 bg-black sm:text-lg md:text-xl xl:text-2xl xl:px-3 xl:tracking-wider hover:bg-black/70 xl:py-2 xl:hover:tracking-widest"
+        >
+          Pricing
+        </a>
+        <a
+          href="#Contact"
+          className="px-1 py-1 mx-1 text-xs text-white duration-150 bg-black sm:text-lg md:text-xl xl:text-2xl xl:px-3 xl:tracking-wider hover:bg-black/70 xl:py-2 xl:hover:tracking-widest"
+        >
+          Contact
+        </a>
       </div>
       <div className="flex flex-col w-full py-10 text-xl font-thin tracking-wider md:flex-row md:text-2xl justify-evenly">
         <h3>Designed By ❤ with ☕</h3>
-        <h3>Developer <a className="text-yellow-800 underline underline-offset-2" href="https://haroon-webdev.vercel.app" target="_blank" rel="noreferrer">M.Haroon</a></h3>
+        <h3>
+          Developer{" "}
+          <a
+            className="text-yellow-800 underline underline-offset-2"
+            href="https://haroon-webdev.vercel.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            M.Haroon
+          </a>
+        </h3>
       </div>
     </div>
   );

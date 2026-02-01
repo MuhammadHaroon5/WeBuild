@@ -61,7 +61,7 @@ const Navbar = () => {
         >
           Pricing
         </a>
-        {/* <a
+        <a
           href="#Contact"
           className="pt-5 mt-1 tracking-wider duration-200 border-b-2 border-amber-600/20 hover:font-bold hover:bg-slate-500/30 md:hover:bg-transparent md:hover:border-amber-600 md:text-lg lg:text-xl xl:text-2xl md:pt-0"
           onClick={(e) => {
@@ -69,7 +69,7 @@ const Navbar = () => {
           }}
         >
           Contact
-        </a> */}
+        </a>
       </div>
       <div className="flex items-center justify-end px-3 space-x-2 md:w-1/3">
         <input type="text" className="px-0 bg-transparent w-[70%] border-b border-black outline-none lg:py-2 lg:text-xl lg:px-2"  placeholder="Search..."/>

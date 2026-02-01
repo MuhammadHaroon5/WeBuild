@@ -29,7 +29,7 @@ function Home() {
                 Get Started
               </button>
             </div>
-            <div className="absolute z-10 right-5 opacity-30">
+            <div className="absolute z-10 right-5 ">
               <img
                 className="w-full max-w-[30rem]"
                 src="./images/home (1).png"
